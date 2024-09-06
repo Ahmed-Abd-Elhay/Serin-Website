@@ -19,3 +19,9 @@ linksBurgerMenu.forEach((el) => {
         burgerMenu.classList.remove("active");
     })
 });
+
+// Create Back To Top Function 
+let backTopButton = document.querySelector(".to-top");
+backTopButton.addEventListener("click", () => {
+    window.scrollTo(0, 0)
+});

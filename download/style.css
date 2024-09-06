@@ -357,7 +357,7 @@ header .container .burger-menu .login-reg a {
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: url("./images/background\ \(1\).png");
+    background-image: url("../images/background\ \(1\).png");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -458,50 +458,34 @@ header .container .burger-menu .login-reg a {
 /* =============== End Hero Section ======================== */
 
 
+
 /* =============== Start Main Section ====================== */
 
-.content {
+.main-content {
     width: 100%;
     padding: 10px 0;
-    margin-bottom: 70px;
+    margin: 100px 0;
 }
 
-.content .container {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 20px;
-}
-
-.content .container .play-info,
-.content .container .server-info {
+.main-content .container {
+    margin: 0 auto 47px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 40px;
-    padding-top: 20px;
+    gap: 48px;
+    flex-wrap: wrap;
 }
 
-.content .container .play-info .box,
-.content .container .server-info .box {
-    width: 298px;
-    height: 350px;
-    border: 1px solid;
-    border-color: rgba(21, 127, 43, 1);
+.main-content .container .box {
+    width: 281px;
+    height: 281px;
+    border: 2px solid rgba(19, 151, 50);
 }
 
-.content .container .server-info .box.server {
-    height: 305px;
-}
-
-.content .container .play-info .box h3,
-.content .container .server-info .box h3 {
+.main-content .container .box h3 {
     width: 100%;
-    height: 32px;
-    background: linear-gradient(180deg, rgba(14, 73, 53, 1), rgba(3, 21, 9, 1));
+    height: 49px;
+    background: linear-gradient(180deg, #0E4935 0%, #031509 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -511,170 +495,31 @@ header .container .burger-menu .login-reg a {
     text-transform: uppercase;
 }
 
-.content .container .play-info .box .info,
-.content .container .server-info .box .info {
-    width: 90%;
-    margin: 18px auto;
-    height: calc(100% - 69px);
-    overflow: auto;
-}
-
-.content .container .play-info .box .info .names,
-.content .container .server-info .box .info .names {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 29px;
-    border-bottom: 1px solid rgba(21, 127, 43, 1);
-}
-
-
-.content .container .play-info .box .info .names .name,
-.content .container .server-info .box .info .names .name {
-    color: white;
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.content .container .play-info .box .info .names .rank,
-.content .container .server-info .box .info .names .rank {
-    color: white;
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.content .container .play-info .fortress-box {
-    width: 298px;
-    height: 183px;
-    border: 1px solid;
-    border-color: rgba(21, 127, 43, 1);
-}
-
-.content .container .play-info .fortress-box h3,
-.content .container .server-info .discord-box h3 {
-    width: 100%;
-    height: 41px;
-    background: linear-gradient(180deg, rgba(14, 73, 53, 1), rgba(3, 21, 9, 1));
+.main-content .container .box .content-info {
+    width: 95%;
+    height: calc(100% - 70px);
+    margin: 10px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    font-size: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
 }
 
-
-.content .container .server-info .discord-box {
-    width: 298px;
-    height: 404px;
-    border: 1px solid;
-    border-color: rgba(21, 127, 43, 1);
+.main-content .container .box .content-info .image {
+    width: 61px;
+    height: 49px;
 }
 
-.content .container .play-info .fortress-box .names,
-.content .container .server-info .discord-box .names {
-    width: 90%;
-    margin: 18px auto;
-    height: calc(100% - 78px);
-}
-
-.content .container .image-container {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-}
-
-.content .container .image-container img {
+.main-content .container .box .content-info .image img {
     width: 100%;
     max-width: 100%;
 }
 
-.content .container .play-info .box .info::-webkit-scrollbar,
-.content .container .server-info .box .info::-webkit-scrollbar,
-.content .container .play-info .fortress-box .names::-webkit-scrollbar,
-.content .container .server-info .discord-box .names::-webkit-scrollbar {
-    width: 0px;
-}
-
-/* =============== Start Responsive ================ */
-
-@media (max-width: 1300px) {
-    .content .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .content .container .play-info,
-    .content .container .server-info {
-        flex-direction: row;
-        max-width: 100%;
-        gap: 20px;
-        align-items: flex-start;
-        flex-wrap: wrap;
-    }
-
-}
-
-@media (max-width: 500px) {
-
-    .content .container .play-info .fortress-box h3,
-    .content .container .server-info .discord-box h3 {
-        font-size: 12px;
-    }
-
-    .content .container .play-info .box .info .names .name,
-    .content .container .server-info .box .info .names .name {
-        font-size: 12px;
-    }
-}
-
-/* =============== End Main Section ========================== */
+/* =============== End Main Section ======================== */
 
 
 
-/* =============== Start Image Section ======================== */
 
-.main-image {
-    width: 100%;
-    padding: 10px 0;
-    margin-bottom: 160px;
-}
-
-.main-image .container {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.main-image .container .image-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-}
-
-.main-image .container .image-container .image {
-    width: 1300px;
-    max-width: 100%;
-    height: 400px;
-    background-color: rgba(217, 217, 217, 1);
-}
-
-.main-image .container .image-container .image img {
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-/* =============== End Image Section ========================== */
-
-
-
-/* =============== Start Footer ================================ */
+/* =============== Start Footer ============================ */
 
 footer {
     background-color: rgba(4, 23, 17, 1);
@@ -885,4 +730,4 @@ footer .container .photos .images img {
 
 }
 
-/* =============== Start Footer =============================== */
+/* =============== End Footer ============================== */

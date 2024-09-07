@@ -886,3 +886,18 @@ footer .container .photos .images img {
 }
 
 /* =============== Start Footer =============================== */
+
+
+
+/* =============== Start Footer =============================== */
+
+::-webkit-scrollbar {
+    background-color: #0632055e;
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #054604;
+}
+
+/* =============== Start Footer =============================== */

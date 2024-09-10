@@ -92,6 +92,16 @@ header .container ul li {
     -o-transition: .3s;
 }
 
+
+header .container ul li:hover {
+    color: #B6B6B6;
+}
+
+header .container ul li:active {
+    color: #ffffff;
+}
+
+
 header .container ul li a,
 header .container ul li p {
     font-size: 15px;

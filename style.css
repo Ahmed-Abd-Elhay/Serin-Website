@@ -92,7 +92,8 @@ header .container ul li {
     -o-transition: .3s;
 }
 
-header .container ul li a {
+header .container ul li a,
+header .container ul li p {
     font-size: 15px;
     font-weight: normal;
     color: inherit;
@@ -958,7 +959,7 @@ footer .container .photos .images img {
 
 
 
-/* =============== Start Footer =============================== */
+/* =============== Start scroll bar =============================== */
 
 ::-webkit-scrollbar {
     background-color: #0632055e;
@@ -969,4 +970,4 @@ footer .container .photos .images img {
     background-color: #054604;
 }
 
-/* =============== Start Footer =============================== */
+/* =============== End scroll bar =============================== */

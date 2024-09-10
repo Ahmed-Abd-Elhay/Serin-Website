@@ -83,7 +83,7 @@ header .container ul {
 
 header .container ul li {
     padding: 10px 0;
-    color: white;
+    color: #dddbdb;
     position: relative;
     transition: .3s;
     -webkit-transition: .3s;
@@ -92,12 +92,15 @@ header .container ul li {
     -o-transition: .3s;
 }
 
-
 header .container ul li:hover {
-    color: #B6B6B6;
+    color: white;
 }
 
 header .container ul li:active {
+    color: #dddddd;
+}
+
+header .container ul li.active {
     color: #ffffff;
 }
 

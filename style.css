@@ -781,6 +781,75 @@ header .container .burger-menu .login-reg a {
 /* =============== End Image Section ========================== */
 
 
+/* =============== End Image Section ========================== */
+
+.alart {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 640px;
+    padding: 25px;
+    border-left: 2px solid rgba(181, 150, 49, 1);
+    background-color: black;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 111111;
+}
+
+.alart .message {
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+    margin-bottom: 25px;
+}
+
+.alart .message p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.alart .message .exit {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.alart .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.alart .buttons a,
+.alart .buttons button {
+    width: 90px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+.alart .buttons a {
+    background-color: rgba(181, 150, 49, 1);
+
+}
+
+.alart .buttons button {
+    background-color: #858796;
+
+}
+
+/* =============== End Image Section ========================== */
+
+
 
 /* =============== Start Footer ================================ */
 

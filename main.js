@@ -37,3 +37,20 @@ communityLink.addEventListener("click", () => {
         socialIcons.classList.add("active");
     }
 });
+
+
+// Create Alart Function 
+let alartMessage = document.querySelector('.alart');
+let exitbutton = document.querySelector(".exit");
+let cancelButton = document.querySelector(".cancel");
+let joinButton = document.querySelector(".join");
+
+function cancelMessage() {
+    alartMessage.style.display = "none";
+    // window.sessionStorage.setItem("alart show", 'true');
+}
+
+exitbutton.addEventListener("click", cancelMessage);
+cancelButton.addEventListener("click", cancelMessage);
+joinButton.addEventListener("click", cancelMessage);
+

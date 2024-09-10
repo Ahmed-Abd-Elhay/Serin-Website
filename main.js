@@ -25,3 +25,15 @@ let backTopButton = document.querySelector(".to-top");
 backTopButton.addEventListener("click", () => {
     window.scrollTo(0, 0)
 });
+
+// Create Community Active Drop Down Menu 
+let communityLink = document.querySelector(".cummunity");
+let socialIcons = document.querySelector(".social-links");
+
+communityLink.addEventListener("click", () => {
+    if (socialIcons.classList.contains("active")) {
+        socialIcons.classList.remove("active");
+    } else {
+        socialIcons.classList.add("active");
+    }
+});
